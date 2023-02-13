@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        *{
+            /* margin: 0;
+            padding: 0; */
+        }
+        .main{
+            background-color: aqua;
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .asidebar{
+            width: 30%;
+            height: 91vh;
+            background-color: orange;
+        }
+        .section{
+            width: 69%;
+        }
+        .header{
+            width: 100%;
+            background-color: peru;
+            height: 30vh;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+        
+        .container div{
+            width: 49.5%;
+            height: 30vh;
+            background-color: khaki;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="asidebar">
+            <!-- <div></div> -->
+        </div>
+        <div class="section">
+            <div class="header"></div>
+            <div class="container">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="header"></div>
+        </div>
+    </div>
+</body>
+</html>
