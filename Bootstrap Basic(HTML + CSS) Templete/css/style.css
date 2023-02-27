@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	/* border: 1px solid black; */
+}
+.section{
+	padding: 40px 0;
+}
+
+/* ---------------------------- Navbar */
+#header{
+	background-color: orange;
+}
+#link>ul>li>a{
+	color: black;
+	padding: 15px 10px;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+}
+#link a:hover{
+	background-color: darkorange;
+}
+
+/* ---------------------------- Banner */
+#banner{
+	background: url(../images/banner.jpg) no-repeat center center/cover;
+}
+#banner-title h1{
+	background-color: rgb(250, 245, 245, 0.7);
+}
+#banner-title p{
+	background-color: rgb(255, 166, 0, 0.7);
+}
+
+/* ---------------------------- Some Headings */
+#headings i{
+	font-size: 100px;
+	color: orange;
+}
+#headings hr{
+	border: 1px solid orange;
+	width: 100px;
+	margin: 0 auto 30px;
+}
+#headings h3{
+	margin-top: 10px;
+}
+
+/* ---------------------------- Testimonials */
+.testimonials{
+	color: white;
+	background: url(../images/testimonial-bg.jpg) no-repeat center center/cover;
+	position: relative;
+}
+.testimonials::before{
+	content: '';
+	background: rgba(52, 73, 94, 0.7);
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* ---------------------------- Recent News */
+#post-date i{
+	font-size: 17px;
+}
+#post-date h6{
+	font-size: 13px;
+}
+.news a{
+	color: orange;
+	text-decoration: none;
+}
+#calndr.fa{
+	font-size:  15px;
+}
+.readmore{
+	font-size: 13px;
+}
+a.readmore::after{
+	content: '\f101';
+	font-family: FontAwesome;
+	padding-left: 5px;
+}
+
+/* ---------------------------- Footer */
+#footer{
+	background: rgb(52, 73, 94);
+	color: white;
+	padding: 20px 0;
+}
+#footer h4::after{
+	content: '';
+	background: white;
+	height: 2px;
+	width: 50px;
+	display: block;
+	margin: 5px 0;
+}
+#footer a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 5px;
+}
+#footer a::before{
+	content: '\f101';
+	font-family: FontAwesome;
+	padding-right: 5px;
+}
+#smallfoot{
+	color: white;
+	background: rgb(30, 45, 59);
+}
+#smallfoot i{
+	font-size: 23px;
+	padding-left: 10px;
+}

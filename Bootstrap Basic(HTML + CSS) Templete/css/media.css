@@ -1,0 +1,11 @@
+@media screen AND (max-width:450px) {
+	#link>ul>li>a{
+		padding: 10px 5px;
+	}
+    #banner-title>h1{
+		font-size: 30px;
+	}
+    #banner-title>p{
+		font-size: 16px;
+	}
+}
