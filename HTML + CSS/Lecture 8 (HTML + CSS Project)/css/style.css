@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+.logo{
+    text-align: center;
+    padding: 30px 0 10px 0;
+    background-color: black;
+}
+.navbar{
+    text-align: center;
+    background-color: black;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+.navbar li:hover{
+    border-bottom: 3px solid #cc9933;
+    /* text-decoration: underline 3px #cc9933; */
+    cursor: pointer;
+}
+
+
+/* Header */
+.marqee{
+    height: 300px;
+}
+marquee img{
+    width: 100%;
+    max-height: 400px;
+}
+
+/* Check In */
+.date{
+    background-color: #322b23;
+    padding: 40px 20px;
+}
+.check-in{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    box-sizing: border-box;
+}
+.check-in input{
+    background-color: #380a0a;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+.check-in h5{
+    margin-bottom: 10px;
+}
+.check-in h5, input{
+    color: white;
+}
+.inp1{
+    width: 25%;
+}
+.inp2{
+    width: 15%;
+    margin: 0 10px;
+}
+.inp3{
+    width: 25%;
+    margin: 0 10px;
+}
+.inp4{
+    width: 35%;
+    position: relative;
+}
+.inp4 button{
+    background-color: #380a0a;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    font-style: italic;
+    border-bottom: 3px solid #cc9933;
+}
+
+/* Rooms Section */
+.rooms{
+    background-color: #0a0a0a;
+    padding: 0 20px;
+}
+.roomimg{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+.imgbox{
+    padding: 0 0 20px 0;
+    width: 32%;
+    text-align: center;
+    color: white;
+}
+.roomimg img{
+    width: 100%;
+}
+hr{
+    border: 1.5px solid #cc9933;
+    width: 30px;
+    margin: 20px auto;
+}
+.imgbox h4{
+    margin-top: 30px;
+}
+
+/* Hotel Rooms Section */
+.h-rooms{
+    position: relative;
+    padding: 40px 20px;
+}
+.h-roomimg::before{
+    content: '';
+    background: url(../images/paristower.jpg) no-repeat center center/cover; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.20;
+    z-index: -1;
+}
+.h-rooms h2{
+    text-align: center;
+    color: #0a0a0a;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.h-rooms h4{
+    text-align: center;
+    color: #c19f80;
+    font-style: italic;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.h-roomimg{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+.imgbox0{
+    width: 32%;
+    overflow: hidden;
+}
+.imgbox0 h5{
+    margin: 10px 0;
+    color: #cc9933;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.imgbox0 h5:hover{
+    color: #380a0a;
+}
+.imgbox0 h6{
+    color: grey;
+    cursor: pointer;
+    font-style: italic;
+}
+.imgbox0 h6:hover{
+    color:#cc9933;
+}
+.imgbox0 img{
+    width: 100%;
+}
+.imgbox0 img:hover{
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+    opacity: 0.80;
+}
+
+/* Hall Section */
+.hall{
+    position: relative;
+    padding: 40px 20px;
+    background-color: #0a0a0a;
+    opacity: 0.99;
+}
+.hall-container::before{
+    content: '';
+    background: url(../images/hall.jpg) no-repeat center center/cover; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.20;
+}
+.hall-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+.hallbox{
+    width: 49%;
+    text-align: center;
+    color: white;
+}
+.hallbox hr{
+        border: 1.5px solid white;
+        width: 30px;
+        margin: 30px auto;
+}
+.hallbox h2, h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.hallbox h4{
+    font-style: italic;
+}
+.hallbox h5{
+    margin: 20px 0;
+}
+.hallbox p{
+    line-height: 20px;
+    color: white;
+}
+
+/* Event Section */
+.event{
+    background-color:#292929;
+    padding: 40px 20px;
+}
+.event-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+.event-container h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.gallerybox{
+    width: 49%;
+    color: white;
+}
+.may{
+    display: flex;
+}
+.maybox{
+    padding: 10px;
+    background-color: #380a0a;
+    border-right: 2px solid #cc9933;
+    border-bottom: 2px solid #cc9933;
+    text-align: center;
+}
+.takeaway{
+    position: relative;
+    margin-left: 10px;
+}
+.takeaway h5{
+    position: absolute;
+    bottom: 0;
+    color: gray;
+}
+.gallerybox .hr1{
+    border: 1.5px solid #cc9933;
+    width: 30px;
+    margin: 20px 0;
+}
+.gallerybox .hr2{
+    border: 0.1px solid lightgray;
+    margin: 20px 0;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.mainimgs-div{
+    display: flex;
+    justify-content: space-between;
+}
+.mainimgs-div div{
+    width: 48%;
+}
+.img1 img{
+    width: 100%;
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.img2 div{
+    width: 100%;
+}
+.fourimgs{
+    display: flex;
+    justify-content: space-between;
+}
+.fourimgs div{
+    width: 46%;
+    height: 46%
+}
+.fourimgs2{
+    margin-top: 18px;
+}
+
+.threeimgs{
+    display: flex;
+    padding: 10px 0;
+}
+.threeimgs div{
+    width: 22%;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+.threeimgs img{
+    width: 100%;
+}
+
+/* Testimonial Section */
+.testimonial{
+    background-color: #1e1e1e;
+    padding: 40px 20px;
+}
+.test-container{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+.test-container h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    color: #cc9924;
+}
+.test-container p{
+    font-size: 18px;
+    color: white;
+    margin: 20px 0;
+}
+.test-container h4{
+    font-style: italic;
+    color: white;
+}
+
+/* Footer */
+.footer{
+    background-color: #111111;
+    padding: 40px 20px;
+}
+.footer-container{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container .footerbox{
+    width: 32%;
+}
+.footer-container h5{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    color: #cc9924;
+}
+.footer-container p{
+    color: #a0a09c;
+    margin: 20px 0 10px 0;
+}
+.s-icon{
+    display: inline-block;
+}
+.s-icon img{
+    width: 25px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.contentbox img{
+    width: 13px;
+}
+.f-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+    color: #a0a09c;
+}
+.f-img .f-img1{
+    width: 25%;
+}
+.f-img .f-img2{
+    width: 65%;
+}
+.f-img img{
+    width: 100%;  
+}
+.f-img h6{
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f-img h6:hover{
+    color: #cc9924;
+    cursor: pointer;
+}
+
+/* Last Footer */
+.footer1{
+    background-color: #660000;
+    border-top: 1px solid #cc9924;
+    padding: 20px;
+}
+.footer1-container{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1-container a, p{
+    color: #a0a09c;
+    text-decoration: none;
+}
+.footer1-container a:hover{
+    color:#cc9924;
+}
+
+
